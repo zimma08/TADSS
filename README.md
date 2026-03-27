@@ -1,4 +1,4 @@
-Tadss
+*Tadss
 O que é MUTEX? é um mecanismo de sincronização usado em programação concorrente para garantir que apenas uma thread ou processo acesse um recurso compartilhado (seção crítica) por vez
 
 O que é um processo? Um programa em execução
