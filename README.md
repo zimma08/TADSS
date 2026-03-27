@@ -1,4 +1,6 @@
-*Tadss
+*TADSS*
+
+
 O que é MUTEX? é um mecanismo de sincronização usado em programação concorrente para garantir que apenas uma thread ou processo acesse um recurso compartilhado (seção crítica) por vez
 
 O que é um processo? Um programa em execução
@@ -11,15 +13,15 @@ o que é um processo ou thread daemon? é um programa de computador que executa 
 
 o que significa prioridade na thread? é um valor atribuído a uma thread que define sua importância para o sistema operacional, determinando qual thread recebe mais tempo de CPU
 
-o que starvation? é uma thread morrer de fome
+o que é starvation? é uma thread morrer de fome
 
 o que é condição de corrida? é um erro em sistemas concorrentes onde o resultado final depende da ordem imprevisível de threads
 
-qual a diferença entre escalonador cooperativo e preemptivo?
+qual a diferença entre escalonador cooperativo e preemptivo? No cooperativo, o processo manda e só para quando quer; se ele travar, o sistema todo para. No preemptivo, o sistema operacional manda e interrompe o processo à força para dar a vez a outros, garantindo que nada trave o computador inteiro.
 
 Diferença entre paralelismo e concorrencia (concorrencia é usada no dia-a-dia)
 
-O que é Sleep?
+O que é Sleep? O sleep é uma pausa programada onde o processo avisa ao sistema que não precisa da CPU por um tempo, saindo da fila de execução para economizar recursos. No modelo cooperativo, é o gesto de "educação" que libera o computador para outros; no preemptivo, o sistema apenas coloca o processo para "dormir" e o ignora até o tempo acabar.
 
 Qualquer objeto no java pode ser usado pra fazer synchronized
 
