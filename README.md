@@ -1,0 +1,36 @@
+Tadss
+O que é MUTEX? é um mecanismo de sincronização usado em programação concorrente para garantir que apenas uma thread ou processo acesse um recurso compartilhado (seção crítica) por vez
+
+O que é um processo? Um programa em execução
+
+o que é Thread? Um fluxo de execução dentro do processo
+
+O que é Stack? Área de memória da Thread (variaveis locais e pilha de chamada de funções)
+
+o que é um processo ou thread daemon? é um programa de computador que executa como um processo em segundo plano (background), sem interação direta com o usuário
+
+o que significa prioridade na thread? é um valor atribuído a uma thread que define sua importância para o sistema operacional, determinando qual thread recebe mais tempo de CPU
+
+o que starvation? é uma thread morrer de fome
+
+o que é condição de corrida? é um erro em sistemas concorrentes onde o resultado final depende da ordem imprevisível de threads
+
+qual a diferença entre escalonador cooperativo e preemptivo?
+
+Diferença entre paralelismo e concorrencia (concorrencia é usada no dia-a-dia)
+
+O que é Sleep?
+
+Qualquer objeto no java pode ser usado pra fazer synchronized
+
+Lock acontece quando duas threads executam ao mesmo tempo
+
+Diferença entre mutex e semaforo A principal diferença entre Mutex e Semáforo é que o Mutex é um mecanismo de bloqueio para exclusão mútua, permitindo apenas uma thread por vez em um recurso, enquanto o Semáforo é um mecanismo de sinalização que permite acesso controlado a múltiplas instâncias de um recurso (contagem).
+
+04/03/2026 thread main é iniciado quando o programa (main) é executado, é o ponto de partida. programa sequencial: executado passo a passo em sequencia start() não inicia uma thread, ela muda para o estado 'ready' scheduler coloca a thread no estado 'running' e não é possível ter controle sobre a ordem de execução após ser executada, a thread vira uma thread morta e não pode ser executada novamente thread são objetos processos terminados em 'd' são deamon, o que significa que são threads que não vão 'morrer' configurações (deamon, prioridade...) devem ser definidas antes do start() 11/03/2026 thread tem três partes:
+
+núcleo do s.o., ou seja, o que executa; código que ela tem que executar (execução do método run()); stack, ou seja, a memória das variáveis locais (área onde somente a thread que está executando, diferente do heap que é uma área comppartilhada entre outras threads) thread de plataforma (so);
+
+green thread: é menos usada pois foca em dispositivos com 1 núcleo;
+
+virtual thread (coroutines): N > 1;
