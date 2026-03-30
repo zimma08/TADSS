@@ -36,3 +36,19 @@ núcleo do s.o., ou seja, o que executa; código que ela tem que executar (execu
 green thread: é menos usada pois foca em dispositivos com 1 núcleo;
 
 virtual thread (coroutines): N > 1;
+
+Speedup:
+O Speedup é a métrica que nos diz o quanto o seu sistema ficou mais rápido depois que você adicionou mais recursos (como mais núcleos de processador ou mais máquinas).
+É possível ter um Speedup Negativo?
+Sim, é perfeitamente possível! Na verdade, em computação, chamamos isso de "Slowdown".
+
+Acontece quando você adiciona mais threads ou processadores e, em vez de o programa rodar mais rápido, ele fica mais lento do que se estivesse rodando em um único núcleo, acontece um overhead.
+
+Por qual motivo existe um limite no speedup?
+Pois é a parte do programa que não pode ser paralelizada (parte sequencial).
+
+Resumo: Concorrência é sobre lida (organizar a bagunça); Paralelismo é sobre fazer (trabalho braçal simultâneo).
+
+
+Latência: É sobre o atraso (foco no indivíduo/tarefa única).
+Throughput: É sobre a entrega (foco no grupo/sistema todo). quantidade de tarefas que realiza em um certo tempo
