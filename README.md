@@ -38,7 +38,7 @@ green thread: é menos usada pois foca em dispositivos com 1 núcleo;
 virtual thread (coroutines): N > 1;
 
 Speedup:
-O Speedup é a métrica que nos diz o quanto o seu sistema ficou mais rápido depois que você adicionou mais recursos (como mais núcleos de processador ou mais máquinas).
+O Speedup é a métrica que nos diz o quanto o seu sistema ficou mais rápido depois que você adicionou mais recursos (como mais núcleos de processador ou mais máquinas). Ele é importante pois quantifica a qualidade e rapidez do processador.
 É possível ter um Speedup Negativo?
 Sim, é perfeitamente possível! Na verdade, em computação, chamamos isso de "Slowdown".
 
