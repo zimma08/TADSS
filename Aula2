@@ -1,0 +1,3 @@
+O work stealing exemplo:
+
+Ele tem 6 tarefas e 2 nucelos, quando o nucleo A acaba suas tarefas, ele rouba as tarefas do nucleo B em paralelo.
